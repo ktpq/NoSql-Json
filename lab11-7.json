@@ -1,0 +1,18 @@
+{
+    "name": "Harry Potter",
+    "dob": "31/07/80",
+    "sex": "Male",
+    "address": "Godric's Hollow, England",
+    "mobile": "+66-451-9856, +66-025-6314",
+    "email": "harry.p@hogwarts.ac.th, Harry99@gmail.com",
+    "languages": {
+      "English": "Read: Good, Write: Good, Speak: Good",
+      "Chinese": "Read: Good, Write: Weak, Speak: Weak",
+      "Japanese": "Read: Weak, Write: Weak, Speak: Good"
+    },
+    "education": [
+      {"year": "1997", "degree": "Bachelor", "school": "Hogwarts", "major": "Auror"},
+      {"year": "2000", "degree": "Master", "school": "Durmstrang", "major": "Auror"}
+    ]
+  }
+  
