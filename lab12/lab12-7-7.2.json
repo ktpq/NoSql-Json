@@ -1,0 +1,106 @@
+{
+    "products": [
+      {
+        "_id": "P001",
+        "product_name": "iPhone",
+        "brand": "Apple",
+        "price": 45000
+      },
+      {
+        "_id": "P002",
+        "product_name": "Surface Pro",
+        "brand": "Microsoft",
+        "price": 38000
+      },
+      {
+        "_id": "P003",
+        "product_name": "iPad",
+        "brand": "Apple",
+        "price": 22000
+      },
+      {
+        "_id": "P004",
+        "product_name": "Galaxy Tab",
+        "brand": "Samsung",
+        "price": 12000
+      }
+    ],
+    "customers": [
+      {
+        "_id": "C40",
+        "name": "Aye Mi",
+        "tel": "+6693-908-5236",
+        "address": {
+          "house_id": 70,
+          "road": "Rama II",
+          "city": "Bangkok"
+        }
+      },
+      {
+        "_id": "C16",
+        "name": "Takashi",
+        "tel": "+6677-101-3758",
+        "address": {
+          "house_id": 482,
+          "road": "Rama IV",
+          "city": "Bangkok"
+        }
+      },
+      {
+        "_id": "C93",
+        "name": "Somchai",
+        "tel": "+6694-994-3456",
+        "address": {
+          "house_id": 567,
+          "road": "Asia",
+          "city": "Phuket"
+        }
+      },
+      {
+        "_id": "C56",
+        "name": "Thana",
+        "tel": "+6677-434-9761",
+        "address": {
+          "house_id": 12,
+          "road": "Rama IX",
+          "city": "Bangkok"
+        }
+      }
+    ],
+    "invoices": [
+      {
+        "_id": "V001",
+        "inv_date": "20/05/62",
+        "customer_id": "C40",
+        "sales": [
+          { "product_id": "P001", "quantity": 1 }
+        ]
+      },
+      {
+        "_id": "V002",
+        "inv_date": "12/07/62",
+        "customer_id": "C16",
+        "sales": [
+          { "product_id": "P002", "quantity": 2 }
+        ]
+      },
+      {
+        "_id": "V003",
+        "inv_date": "14/09/62",
+        "customer_id": "C93",
+        "sales": [
+          { "product_id": "P004", "quantity": 1 },
+          { "product_id": "P003", "quantity": 3 }
+        ]
+      },
+      {
+        "_id": "V004",
+        "inv_date": "17/11/62",
+        "customer_id": "C56",
+        "sales": [
+          { "product_id": "P004", "quantity": 1 }
+        ]
+      }
+    ]
+  }
+  
